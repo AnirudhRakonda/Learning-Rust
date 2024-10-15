@@ -1,0 +1,16 @@
+# Ignore target directory, where compiled files are placed
+/target/
+
+# Ignore Cargo.lock if you're building a library
+# Libraries generally don't commit Cargo.lock
+# If you're working on a binary application, it can be included
+#!Cargo.lock
+
+# Ignore build artifacts
+**/*.rs.bk
+
+# Ignore IDE/editor files
+.idea/
+.vscode/
+*.swp
+*.swo
